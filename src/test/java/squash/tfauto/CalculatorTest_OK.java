@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @DisplayName("Calculator")
-public class CalculatorTest {
+public class CalculatorTest_OK {
 
     @Test
     public void addSuccess(){

@@ -1,0 +1,15 @@
+description: |
+    JUnit Jupiter project with some simple operations.
+    Contains some surefire extensions :
+    JUnit5Xml30StatelessReporter,
+    JUnit5ConsoleOutputReporter,
+    JUnit5StatelessTestsetInfoReporter
+    Does not work correctly with Squash AUTOM/DEVOPS
+    because the extensions impact the surefire report.
+
+tags:
+- junit_jupiter
+- display_name
+- headless
+- surefire_extensions
+- no_parameters

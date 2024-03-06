@@ -42,4 +42,10 @@ public class Data_test {
       assertEquals("heavens, yeah", string);
   }
 
+  @Test
+  public void cufBlocked() throws ParameterException {
+      String string = ParameterService.INSTANCE.getString("TS_CUF_no_such_cuf");
+      assertEquals("yeah", string);
+  }
+
 }

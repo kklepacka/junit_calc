@@ -20,7 +20,7 @@ public class Data_test {
 
   @Test
   public void envSuccessTest() throws ParameterException {
-      String string = System.getenv("ENV_its_ok_to_fail");
+      String string = System.getenv("its_ok_to_fail");
       assertEquals("hell, yeah", string);
   }
 
@@ -38,7 +38,7 @@ public class Data_test {
 
   @Test
   public void envFailTest() throws ParameterException {
-      String string = System.getenv("ENV_its_ok_to_fail");
+      String string = System.getenv("its_ok_to_fail");
       assertEquals("heavens, yeah", string);
   }
 

@@ -14,7 +14,7 @@ public class Data_test {
 
   @Test
   public void datasetSuccessTest() throws ParameterException {
-      String string = ParameterService.INSTANCE.getString("DS_CUF_little_success_counts");
+      String string = ParameterService.INSTANCE.getString("DS_little_success_counts");
       assertEquals("yeah, brother", string);
   }
 
@@ -32,7 +32,7 @@ public class Data_test {
 
   @Test
   public void datasetFailTest() throws ParameterException {
-      String string = ParameterService.INSTANCE.getString("DS_CUF_little_success_counts");
+      String string = ParameterService.INSTANCE.getString("DS_little_success_counts");
       assertEquals("yeah, sister", string);
   }
 
